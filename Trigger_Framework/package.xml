@@ -3,6 +3,7 @@
     <fullName>Trigger Framework</fullName>
     <description>Trigger Framework</description>
     <types>
+        <members>TransactionLogHandler</members>
         <members>TriggerDispatcher</members>
         <members>TriggerDispatcherTest</members>
         <members>TriggerException</members>
