@@ -67,7 +67,7 @@ private with sharing class TriggerDispatcherTest{
     static testMethod void afterContextTest(){
         List<Account> accountList = new List<Account>([Select Id, Name From Account LIMIT 100]);
         String Id = accountList[0].Id;
-        Test.startTest();
+        System.Test.startTest();
             
             System.assertEquals(100, accountList.size());
             delete accountList;
@@ -81,14 +81,14 @@ private with sharing class TriggerDispatcherTest{
             List<Transaction_Log__c> tLogList1 = new List<Transaction_Log__c>();
             tLogList1 = [Select Id, Name,Class_Name__c From Transaction_Log__c LIMIT 10 ALL ROWS];
             //undelete tLogList1;
-        Test.stopTest();
+        System.Test.stopTest();
     }
     
     static testMethod void TransactionLogHandlerTest(){
-        Test.StartTest();
+        System.Test.StartTest();
             TransactionLogHandler.doHandleException(new System.DMLException(), 'AccountTriggerHandler');
             Integer i =1;
             System.assertEquals(1, I);
-        Test.StopTest();
+        System.Test.StopTest();
     }
 }
