@@ -21,7 +21,7 @@ Context-specific handler methods
 I started reading and following the trigger best practices and while reading and implementing the trigger I heard about the trigger framework. In my recent project requirement was to develop the trigger with the framework so being as a lead developer I did took the responsibility to build the lightweight trigger framework.
 
 You can deploye the code directoly into you salesforce Production/Sandbox or Developer Org.
-<a href="https://githubsfdeploy.herokuapp.com/?owner=amitastreait&repo=Apex-Trigger-Framework">
+<a href="https://githubsfdeploy.herokuapp.com/?owner=sablok1988&repo=Apex-Trigger-Framework">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
