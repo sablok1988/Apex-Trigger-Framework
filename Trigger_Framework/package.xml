@@ -56,11 +56,6 @@
         <name>ListView</name>
     </types>
     <types>
-        <members>Trigger_Framework</members>
-        <members>Trigger_Framework/Object_Trigger_Settings</members>
-        <name>Report</name>
-    </types>
-    <types>
         <members>TriggerSetting</members>
         <name>StaticResource</name>
     </types>
